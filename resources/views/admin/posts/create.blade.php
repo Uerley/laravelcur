@@ -1,5 +1,5 @@
 <h1>Cadastrar Novo Post</h1>
-@if ($errors->any())
+@if($errors->any())
     <ul>
         @foreach($errors->all() as $error)
             <li>{{$error}}</li>
